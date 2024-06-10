@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entertainment Event Planning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        .navbar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .table {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .table input,
+        .table textarea,
+        .table select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .button input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        .footer .box-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .box {
+            width: 30%;
+            padding: 10px;
+            text-align: left;
+        }
+        
+        .box a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .box {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+         <h1>Entertainment</h1>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="login.html" class="right">Login</a>
+                <a href="register.html">Register</a>
+            </nav>
+    </header>
+    
+    <br><br><br><br>
+    
+    <section class="table">
+        <div class="table">
+            <table>
+                <tr><td><h3>Let us understand your preferences</h3></td></tr>
+                <tr><td><h3>Span of event</h3></td><td><span><input type="date" placeholder="DD/MM/YY"></span></td></tr>
+                <tr><td><h3>Adults:</h3></td><td><span>
+                    <select style="border: 3px solid #707070;">
+                        <option value="">Select</option>
+                        <option value="100">Less than 100</option> 
+                        <option value="200-500">200-500</option>   
+                        <option value="500-1000">500-1000</option>
+                        <option value="1000">1000 or more</option>  
+                    </select>
+                </span></td></tr>    
+                <tr><td><h3>Kids:</h3></td><td><span>
+                    <select style="border: 3px solid #707070;">
+                        <option value="">Select</option>
+                        <option value="100">Less than 100</option> 
+                        <option value="200-500">200-500</option>   
+                        <option value="500-1000">500-1000</option>
+                        <option value="1000">1000 or more</option>  
+                    </select>
+                </span></td></tr>
+                <tr><td><h3>Setup:</h3></td><td><span><textarea rows="2" cols="70" style="border: 3px solid #707070;" placeholder="Do you prefer an outdoor or indoor setup?"></textarea></span></td></tr>
+                <tr><td><h3>Theme:</h3></td><td><span><input type="text" placeholder="Enter theme"></span></td></tr>
+                <tr><td><h3>Budget:</h3></td><td><span><input type="number" placeholder="Enter your budget"></span></td></tr>
+            </table>
+        </div>
+    </section>
+    
+    <section class="food">
+        <h1 class="heading">Entertainment Options</h1>
+        <div class="box-container">
+            <!-- Your entertainment boxes with Font Awesome icons -->
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Branches</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Visakhapatnam </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Hyderabad </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Chennai </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Bangalore </a>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +91 6301649971 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +91 9133344491 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> sahith03@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> bhargavi28@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> pushpalatha14@gmail.com </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Andhra Pradesh

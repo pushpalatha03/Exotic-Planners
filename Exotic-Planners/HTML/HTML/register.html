@@ -1,0 +1,104 @@
+<DOCTYPE html>  
+    <html lang = "en">  
+    <head>
+    <title>
+    Registration form
+    </title><script language ="javascript" type="text/javascript">
+    function hello()
+    {
+    alert("Your registartion is sucessfully completed")
+    }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXOTIC PLANNERS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+    <style>
+    h1 {  
+        text-align: center;  
+        padding: 20px;  
+          
+        color: blue;  
+        }  
+        .formstyle  
+        {
+        text-align:left;  
+         width: 500px;  
+         height: 850px;  
+         margin: auto;
+          border: 4px SOLID BLACK;
+          border-radius: 15px;    
+          padding: 50px; 
+          background-color:aliceblue; 
+          
+
+         }
+        .formstyle span input[type="text"],select{
+            width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #707070;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-weight:bolder;
+        }  
+        .formstyle span input[type="text"],select:focus{
+            border: 3px solid #101010;
+        }
+        
+    </style>  
+     
+    </head>  
+    <body>  
+
+        <header class="header">
+            <h1>Registration form</h1>
+               <nav class="navbar">
+                   <a href="index.html"  >Home</a>
+                   <a href="login.html" class="right">Login</a>
+                   <a href="register.html" >Register</a>   
+               </nav>
+       </header>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+    <div class= "formstyle">  
+    <form action="register.php" method="POST" name = "form1">  
+    <body>
+    
+    <h2>UserName:</h2><span><input type="text" placeholder="Enter your username" name="username"></span>
+    <br>
+    <br>
+    <h2>E-mail:</h2><span><input type="text" placeholder="Enter your email id" name="email" ></span>
+    <br><br>
+    <h2>Password:</h2><span><input type="text" placeholder="Enter password" name="password" ></span>
+    <br><br>
+    <h2>Phoneno:</h2><span><input type="number" name="phn"  size="10"></span></input>
+    <br><br>
+    <h2>Address:</h2><span><input type="text" placeholder="Enter your address" name="adr" ></span>
+    <br>
+    <br>
+
+    <br><center><h2>
+    <button onclick="hello()"><h2>Register</h2></button></h2></center>
+    
+    </br></div>
+    </body>
+    </form>
+</html>
